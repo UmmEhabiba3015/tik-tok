@@ -1,0 +1,6 @@
+.env
+data/
+media/*
+!media/.gitkeep
+__pycache__/
+.venv/

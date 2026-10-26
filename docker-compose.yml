@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file: .env
+    volumes:
+      - ./media:/srv/media
+      - ./data:/srv/data
+      - ./verification:/srv/verification
